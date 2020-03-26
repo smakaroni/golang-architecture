@@ -17,7 +17,9 @@ type human interface {
 }
 
 func main() {
-	p1 := person{first:"Emma"}
+	p1 := person{
+		first:"Emma",
+	}
 
 	fmt.Printf("%T\n", p1)
 
